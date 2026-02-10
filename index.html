@@ -2,30 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Photo Gallery</title>
+    <title>JavaScript Photo Gallery</title>
     <link rel="stylesheet" href="style.css">
     <script src="gallery.js"></script>
 </head>
 <body>
 
-<div id="image">
-    Hover over an image below to display here.
-</div>
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
 
-<img src="https://via.placeholder.com/300/92c952"
-     alt="Styling with a Bandana"
-     onmouseover="upDate(this)"
-     onmouseout="undo()">
+    <div class="gallery">
+        <img src="meocute1.jpg" alt="Cute cat number one"
+             onmouseover="upDate(this)" onmouseout="undo()">
 
-<img src="https://via.placeholder.com/300/771796"
-     alt="Bacon in Sunglasses"
-     onmouseover="upDate(this)"
-     onmouseout="undo()">
+        <img src="meocute2.jpg" alt="Cute cat number two"
+             onmouseover="upDate(this)" onmouseout="undo()">
 
-<img src="https://via.placeholder.com/300/24f355"
-     alt="Sleeping Puppy"
-     onmouseover="upDate(this)"
-     onmouseout="undo()">
+        <img src="meocute3.jpg" alt="Cute cat number three"
+             onmouseover="upDate(this)" onmouseout="undo()">
+
+        <img src="meocute4.jpg" alt="Cute cat number four"
+             onmouseover="upDate(this)" onmouseout="undo()">
+    </div>
 
 </body>
 </html>

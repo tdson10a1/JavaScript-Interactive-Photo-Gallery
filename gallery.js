@@ -9,3 +9,4 @@ function undo() {
         "Hover over an image below to display here.";
     document.getElementById("image").style.backgroundImage = "url('')";
 }
+ 
